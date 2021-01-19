@@ -1,0 +1,33 @@
+<mvc:View controllerName="FUD.FileUploaderDownloader.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form">
+	<!--<Shell id="shell">-->
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<l:VerticalLayout width="100%">
+							<l:BlockLayout>
+								<l:BlockLayoutRow>
+									<l:BlockLayoutCell></l:BlockLayoutCell>
+								</l:BlockLayoutRow>
+								<l:BlockLayoutRow>
+									<l:BlockLayoutCell>
+										<form:SimpleForm>
+											<Label text="Email"></Label>
+											<Input id="emailId" width="50%"></Input>
+											<Label text="Password"></Label>
+											<Input id="pwdId" width="50%"></Input>
+											<Label></Label>
+											
+											<Button text="Login" width="50%" press="onLogin"></Button>
+										</form:SimpleForm>
+									</l:BlockLayoutCell>
+								</l:BlockLayoutRow>
+							</l:BlockLayout>
+						</l:VerticalLayout>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	<!--</Shell>-->
+</mvc:View>

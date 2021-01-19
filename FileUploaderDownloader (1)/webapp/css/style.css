@@ -1,0 +1,38 @@
+/* Enter your custom styles here */
+
+.HBoxStyle {
+    margin-top: 1.6rem !important;
+}
+
+.leftVBoxStyle {
+    margin-left: 10rem !important;
+}
+
+.vBox2style {
+    margin-left: 10rem !important;
+    margin-top: 2rem !important;
+}
+
+.vBox3style {
+    margin-left: 10rem !important;
+    margin-top: 2rem !important;
+}
+
+.vBox4style {
+    margin-left: 10rem !important;
+    margin-top: 2rem !important;
+}
+
+.hBox1style{
+	margin-left: 10rem !important;
+    margin-top: 2rem !important;
+}
+
+
+/*.rightVBoxStyle{*/
+
+
+/*	margin-right : 10rem !important;*/
+
+
+/*}*/
